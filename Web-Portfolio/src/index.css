@@ -1,4 +1,10 @@
 :root {
+  --main: #cc7d55;
+  --second: #e3d8d2;
+  --background: #7f7b7a;
+  --third: #d6b799;
+  --off: #778d76;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
