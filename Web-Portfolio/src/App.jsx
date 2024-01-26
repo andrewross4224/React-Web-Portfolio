@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
+import Header from './components/Header'
+import PageRouter from './components/PageRouter'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
@@ -11,22 +12,8 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
+        <PageRouter/>
       </div>
-      <h1 className=''>Vite + React</h1>
-      <div className="card">
-        <Button style={{backgroundColor: 'var(--main)'}} onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </Button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
