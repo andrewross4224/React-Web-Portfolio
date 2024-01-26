@@ -1,28 +1,27 @@
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
-
 function Header({ currentPage, handlePageChange }) {
     return (
-        <Tabs
-            defaultActiveKey="AboutMe"
-            className="mb-3"
-            justify
-        >
-            <Tab eventKey="AboutMe" title="About Me" 
-            onClick={() => handlePageChange('AboutMe')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
-
-            </Tab>
-            <Tab eventKey="Portfolio" title="Portfolio">
-
-            </Tab>
-            <Tab eventKey="Contact" title="Contact">
-
-            </Tab>
-            <Tab eventKey="Resume" title="Resume">
-
-            </Tab>
-        </Tabs>
+        <ul className="nav nav-tabs fixed-top pt-3">
+            <li className="nav-item">
+                <a onClick={() => handlePageChange('AboutMe')}
+                    className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>
+                    About Me</a>
+            </li>
+            <li className="nav-item">
+                <a onClick={() => handlePageChange('Portfolio')}
+                    className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+                    Portfolio</a>
+            </li>
+            <li className="nav-item">
+                <a onClick={() => handlePageChange('Contact')}
+                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+                    Contact</a>
+            </li>
+            <li className="nav-item">
+                <a onClick={() => handlePageChange('Resume')}
+                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+                    Resume</a>
+            </li>
+        </ul>
     )
 }
 export default Header;
