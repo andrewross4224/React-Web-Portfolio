@@ -5,7 +5,8 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
-import recipeasy from '../../assets/recipeasy.png'
+
+let recipeasy = './src/assets/recipeasy.png'
 import noteApp from '../../assets/noteApp.png'
 import logo from '../../assets/logo.png'
 import passwordGenerator from '../../assets/passwordGenerator.png'
