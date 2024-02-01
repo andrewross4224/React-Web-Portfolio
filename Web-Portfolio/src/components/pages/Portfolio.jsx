@@ -6,12 +6,12 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 
-let recipeasy = './src/assets/recipeasy.png'
-let noteApp = './src/assets/noteApp.png'
-let logo = './src/assets/logo.png'
-let passwordGenerator = './src/assets/passwordGenerator.png'
-let socialNetworkAPI = './src/assets/socialNetworkAPI.png'
-let workdayOrganizer = './src/assets/workdayOrganizer.png'
+let recipeasy = './src/assets/recipeasy.jpg'
+let noteApp = './src/assets/noteApp.jpg'
+let logo = './src/assets/logo.jpg'
+let passwordGenerator = './src/assets/passwordGenerator.jpg'
+let socialNetworkAPI = './src/assets/socialNetworkAPI.jpg'
+let workdayOrganizer = './src/assets/workdayOrganizer.jpg'
 
 export default function Portfolio() {
     return (
