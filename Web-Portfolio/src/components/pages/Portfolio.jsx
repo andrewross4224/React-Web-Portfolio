@@ -7,6 +7,10 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 // Image Assets
 import recipeasy from '../../assets/recipeasy.png';
 import noteApp from '../../assets/noteApp.png';
+import logo from '../../assets/Logo.png';
+import passwordGenerator from '../../assets/passwordGenerator.png';
+import socialNetworkAPI from '../../assets/socialNetworkAPI.png';
+import workdayOrganizer from '../../assets/workdayOrganizer.png';
 
 export default function Portfolio() {
     return (
@@ -34,30 +38,42 @@ export default function Portfolio() {
                 </Col>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src='https://placehold.co/400' />
-                        <Card.Title>This is my project</Card.Title>
-                        <Button variant="primary">Github Repo</Button>
+                        <Card.Img variant='top' src={logo} />
+                        <Card.Title>Logo Generator</Card.Title>
+                        <ButtonGroup>
+                            <Button variant="primary" href='https://github.com/andrewross4224/Logo-Generator'>Github Repo</Button>
+                            <Button variant="primary" href='https://drive.google.com/file/d/1Vq1VoMV3LavzYs1LaUZpkvwbIonBlAk2/view?usp=sharing'>Video Demo</Button>
+                        </ButtonGroup>
                     </Card>
                 </Col>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src='https://placehold.co/400' />
-                        <Card.Title>This is my project</Card.Title>
-                        <Button variant="primary">Github Repo</Button>
+                        <Card.Img variant='top' src={passwordGenerator} />
+                        <Card.Title>Password Generator</Card.Title>
+                        <ButtonGroup>
+                            <Button variant="primary" href='https://github.com/andrewross4224/Password-Generator'>Github Repo</Button>
+                            <Button variant="primary" href='https://andrewross4224.github.io/Password-Generator/'>Deployed Site</Button>
+                        </ButtonGroup>
                     </Card>
                 </Col>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src='https://placehold.co/400' />
-                        <Card.Title>This is my project</Card.Title>
-                        <Button variant="primary">Github Repo</Button>
+                        <Card.Img variant='top' src={socialNetworkAPI} />
+                        <Card.Title>Social Network API</Card.Title>
+                        <ButtonGroup>
+                            <Button variant="primary" href='https://github.com/andrewross4224/Social-Network-API'>Github Repo</Button>
+                            <Button variant="primary" href='https://drive.google.com/file/d/1YwzbVTGQ7faADAz8ChyD_QGDBeZ4g9D4/view?usp=sharing'>Video Demo</Button>
+                        </ButtonGroup>
                     </Card>
                 </Col>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src='https://placehold.co/400' />
-                        <Card.Title>This is my project</Card.Title>
-                        <Button variant="primary">Github Repo</Button>
+                        <Card.Img variant='top' src={workdayOrganizer} />
+                        <Card.Title>Workday Organizer</Card.Title>
+                        <ButtonGroup>
+                            <Button variant="primary" href='https://github.com/andrewross4224/day-organizer'>Github Repo</Button>
+                            <Button variant="primary" href='https://andrewross4224.github.io/day-organizer/'>Deployed Site</Button>
+                        </ButtonGroup>
                     </Card>
                 </Col>
             </Row>

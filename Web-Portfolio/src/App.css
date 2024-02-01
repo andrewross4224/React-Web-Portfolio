@@ -74,6 +74,10 @@ img {
   border-radius: 25px;
 }
 
+.card-title {
+  margin-top: 5px;
+}
+
 .card-img-top {
   border-radius: 25px 25px 0 0;
   width: 400px;
@@ -95,4 +99,33 @@ img {
   border: none;
   border-top: 1px solid black;
   border-radius: 0 0 25px 25px;
+}
+
+.error::placeholder {
+  color: red;
+}
+
+.contactBtn {
+  border-radius: 25px;
+  background-color: var(--main);
+  border: none;
+}
+
+.contactBtn:hover {
+  border-radius: 25px;
+  background-color: var(--background);
+  border: none;
+  transition: 1s;
+}
+
+form {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(117, 117, 117, 0.3);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.resumeLink {
+  text-decoration: underline;
 }
