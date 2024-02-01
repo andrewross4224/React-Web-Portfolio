@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 // Image Assets
-import recipeasy from '../../assets/recipeasy.png';
+// import recipeasy from '../../assets/recipeasy.png';
 import noteApp from '../../assets/noteApp.png';
 import logo from '../../assets/logo.png';
 import passwordGenerator from '../../assets/passwordGenerator.png';
@@ -18,7 +18,7 @@ export default function Portfolio() {
             <Row>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src={recipeasy} />
+                        {/* <Card.Img variant='top' src={recipeasy} /> */}
                         <Card.Title>Recipeasy</Card.Title>
                         <ButtonGroup>
                             <Button variant="primary" href='https://github.com/pommerpie/Recipeasy'>Github Repo</Button>
