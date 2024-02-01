@@ -1,6 +1,6 @@
 function Header({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav nav-tabs fixed-top pt-3">
+        <ul className="nav nav-tabs justify-content-center py-2 fixed-top">
             <li className="nav-item">
                 <a onClick={() => handlePageChange('AboutMe')}
                     className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>
