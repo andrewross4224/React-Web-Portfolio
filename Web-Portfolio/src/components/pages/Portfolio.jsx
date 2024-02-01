@@ -7,7 +7,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 // Image Assets
 import recipeasy from '../../assets/recipeasy.png';
 import noteApp from '../../assets/noteApp.png';
-import logo from '../../assets/Logo.png';
+import logo from '../../assets/logo.png';
 import passwordGenerator from '../../assets/passwordGenerator.png';
 import socialNetworkAPI from '../../assets/socialNetworkAPI.png';
 import workdayOrganizer from '../../assets/workdayOrganizer.png';
