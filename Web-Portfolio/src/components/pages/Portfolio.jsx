@@ -5,7 +5,12 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
+import recipeasy from '../../assets/recipeasy.png'
 import noteApp from '../../assets/noteApp.png'
+import logo from '../../assets/logo.png'
+import passwordGenerator from '../../assets/passwordGenerator.png'
+import socialNetworkAPI from '../../assets/socialNetworkAPI.png'
+import workdayOrganizer from '../../assets/workdayOrganizer.png'
 
 export default function Portfolio() {
     return (
@@ -13,7 +18,7 @@ export default function Portfolio() {
             <Row>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src='./src/assets/recipeasy.png' />
+                        <Card.Img variant='top' src={recipeasy} />
                         <Card.Title>Recipeasy</Card.Title>
                         <ButtonGroup>
                             <Button variant="primary" href='https://github.com/pommerpie/Recipeasy'>Github Repo</Button>
@@ -33,7 +38,7 @@ export default function Portfolio() {
                 </Col>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src='./src/assets/logo.png' />
+                        <Card.Img variant='top' src={logo} />
                         <Card.Title>Logo Generator</Card.Title>
                         <ButtonGroup>
                             <Button variant="primary" href='https://github.com/andrewross4224/Logo-Generator'>Github Repo</Button>
@@ -43,7 +48,7 @@ export default function Portfolio() {
                 </Col>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src='./src/assets/passwordGenerator.png' />
+                        <Card.Img variant='top' src={passwordGenerator} />
                         <Card.Title>Password Generator</Card.Title>
                         <ButtonGroup>
                             <Button variant="primary" href='https://github.com/andrewross4224/Password-Generator'>Github Repo</Button>
@@ -53,7 +58,7 @@ export default function Portfolio() {
                 </Col>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src='./src/assets/socialNetworkAPI.png' />
+                        <Card.Img variant='top' src={socialNetworkAPI} />
                         <Card.Title>Social Network API</Card.Title>
                         <ButtonGroup>
                             <Button variant="primary" href='https://github.com/andrewross4224/Social-Network-API'>Github Repo</Button>
@@ -63,7 +68,7 @@ export default function Portfolio() {
                 </Col>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src='./src/assets/workdayOrganizer.png' />
+                        <Card.Img variant='top' src={workdayOrganizer} />
                         <Card.Title>Workday Organizer</Card.Title>
                         <ButtonGroup>
                             <Button variant="primary" href='https://github.com/andrewross4224/day-organizer'>Github Repo</Button>
