@@ -1,6 +1,7 @@
 # React Web Portfolio ![alt text](https://img.shields.io/badge/License-MIT-yellow.svg)
 # Description
 A resume portfolio made by me using react.js
+![image](./Web-Portfolio/src/assets/websiteScreenshot.png)
 # Table of Contents
 - [Description](#description)
 - [Installation](#installation)
