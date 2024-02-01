@@ -5,6 +5,8 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
+import noteApp from '../../assets/noteApp.png'
+
 export default function Portfolio() {
     return (
         <Container fluid='xs' className='mt-5'>
@@ -21,7 +23,7 @@ export default function Portfolio() {
                 </Col>
                 <Col xs={12} md={6} lg={4} className='p-3'>
                     <Card>
-                        <Card.Img variant='top' src='./src/assets/noteApp.png' />
+                        <Card.Img variant='top' src={noteApp} />
                         <Card.Title>Note App</Card.Title>
                         <ButtonGroup>
                             <Button variant="primary" href='https://github.com/andrewross4224/Note-app'>Github Repo</Button>
