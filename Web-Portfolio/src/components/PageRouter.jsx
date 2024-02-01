@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import Header from './Header'
+import Footer from './Footer'
 
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
@@ -30,6 +31,7 @@ export default function pageRouter() {
     <>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>{renderPage()}</main>
+      <Footer/>
     </>
   );
 }

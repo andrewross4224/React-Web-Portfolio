@@ -129,3 +129,16 @@ form {
 .resumeLink {
   text-decoration: underline;
 }
+
+.icon {
+  text-decoration: none;
+  color: white;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 399px) {
+  .aboutMe {
+    margin-top: 80px;
+  }
+}
