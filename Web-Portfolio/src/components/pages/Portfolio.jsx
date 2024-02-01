@@ -7,11 +7,11 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 
 let recipeasy = './src/assets/recipeasy.png'
-import noteApp from '../../assets/noteApp.png'
-import logo from '../../assets/logo.png'
-import passwordGenerator from '../../assets/passwordGenerator.png'
-import socialNetworkAPI from '../../assets/socialNetworkAPI.png'
-import workdayOrganizer from '../../assets/workdayOrganizer.png'
+let noteApp = './src/assets/noteApp.png'
+let logo = './src/assets/logo.png'
+let passwordGenerator = './src/assets/passwordGenerator.png'
+let socialNetworkAPI = './src/assets/socialNetworkAPI.png'
+let workdayOrganizer = './src/assets/workdayOrganizer.png'
 
 export default function Portfolio() {
     return (
