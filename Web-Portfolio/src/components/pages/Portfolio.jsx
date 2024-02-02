@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 
-let recipeasy = './src/assets/recipeasy.jpg'
+import recipeasy from '../../assets/recipeasy.jpg'
 let noteApp = './src/assets/noteApp.jpg'
 let logo = './src/assets/logo.jpg'
 let passwordGenerator = './src/assets/passwordGenerator.jpg'
