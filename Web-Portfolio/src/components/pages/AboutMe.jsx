@@ -14,11 +14,10 @@ export default function AboutMe() {
             <Row>
                 <Col md={12} lg={6}> <img src={profile} className='my-2'></img> </Col>
                 <Col md={12} lg={6} className='my-2'>
-                    <p className='aboutMeText'>Hi! My name is Andrew Ross. I am currently in bootcamp at UCF learning front-end back-end website development.
-                        I am doing this because I have always been passionate about technology and computers, and would love to be able
-                        to have a career writing code. For now I am an assistant manager at Discount Tire, working for discount tire has
-                        taught me the importance of being able to efficiently work in a team setting, a skill that will help tremendously
-                        in web development.</p>
+                    <p className='aboutMeText'>Hi! My name is Andrew Ross and I am a full stack web developer. I have always been passionate about technology and learning how things work. Through UCF 
+                    coding bootcamp I have been able to learn so much and I am excited to keep learning and growing as a web developer. I am originally from Littleton Colorado and just recently moved to 
+                    Florida with my wife. I enjoy learning in all forms whether it be coding, history, finances or anything between. I am excited to continue learning as I head into my career as a web developer!
+                    </p>
                 </Col>
             </Row>
 
